@@ -2,12 +2,7 @@ body {
   font-family: "roboto", sans-serif;
   color: rgb(33, 33, 33);
 }
-.contact:hover {
-  color: rgb(49, 243, 56);
-}
-.contact:focus {
-  color: rgb(217, 255, 0);
-}
+
 .logo {
   font-family: "raleway", sans-serif;
   font-weight: 700;
@@ -18,5 +13,17 @@ body {
   color: rgb(0, 0, 0);
 }
 .logo-color-special {
+  color: rgb(33, 150, 243);
+}
+.contact-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: rgb(117, 117, 117);
+}
+.contact-header:hover,
+.contact-header:focus {
   color: rgb(33, 150, 243);
 }
