@@ -15,6 +15,9 @@ body {
 .logo-color-special {
   color: rgb(33, 150, 243);
 }
+.logo-footer {
+  color: rgb(225, 225, 225);
+}
 .header {
   font-weight: 500;
   font-size: 14px;
@@ -27,7 +30,9 @@ body {
 }
 .header-active-web,
 .header:hover,
-.header:focus {
+.header:focus,
+.footer-contact:hover,
+.footer-contact:focus {
   color: rgb(33, 150, 243);
 }
 .mainpage-h1 {
@@ -71,4 +76,23 @@ body {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
+}
+.images-text {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: rgb(117, 117, 117);
+}
+.images-text-bold {
+  font-weight: 500;
+  color: rgb(33, 33, 33);
+}
+.footer-contact {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgb(255, 255, 255);
+}
+.footer-bg-color {
+  background-color: rgb(47, 48, 58);
 }
