@@ -1,3 +1,10 @@
 body {
   font-family: "roboto", sans-serif;
+  color: rgb(33, 33, 33);
+}
+.contact:hover {
+  color: rgb(49, 243, 56);
+}
+.contact:focus {
+  color: rgb(240, 12, 12);
 }
