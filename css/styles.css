@@ -15,15 +15,17 @@ body {
 .logo-color-special {
   color: rgb(33, 150, 243);
 }
-.contact-header {
+.header {
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
   text-decoration: none;
+}
+.header-contact {
   color: rgb(117, 117, 117);
 }
-.contact-header:hover,
-.contact-header:focus {
+.header:hover,
+.header:focus {
   color: rgb(33, 150, 243);
-}
+
