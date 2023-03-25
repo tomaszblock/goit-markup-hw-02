@@ -91,6 +91,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  text-decoration: none;
   color: rgb(255, 255, 255);
 }
 .footer-bg-color {
