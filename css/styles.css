@@ -34,6 +34,10 @@ body {
 .footer-contact:focus {
   color: rgb(33, 150, 243);
 }
+.button-pointer:hover,
+.button-pointer:focus {
+  color: rgb(255, 0, 0);
+}
 .mainpage-h1 {
   font-weight: 900;
   font-size: 44px;
