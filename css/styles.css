@@ -1,6 +1,16 @@
+:root {
+  --color-font-primary: rgb(33, 33, 33);
+  --color-special-primary: rgb(33, 150, 243);
+  --color-special-secondary: rgb(89, 0, 255);
+  --color-white: rgb(255, 255, 255);
+  --color-white-alpha: rgba(255, 255, 255, 0.6);
+  --color-font-secondary: rgb(117, 117, 117);
+  --color-background-primary: rgb(47, 48, 58);
+  --color-buttons: rgb(245, 244, 250);
+}
 body {
   font-family: "roboto", sans-serif;
-  color: rgb(33, 33, 33);
+  color: var(--color-font-primary);
 }
 .logo {
   font-family: "raleway", sans-serif;
@@ -12,10 +22,10 @@ body {
   color: rgb(0, 0, 0);
 }
 .logo-color-special {
-  color: rgb(33, 150, 243);
+  color: var(--color-special-primary);
 }
 .logo-footer {
-  color: rgb(225, 225, 225);
+  color: var(--color-white);
 }
 .header {
   font-weight: 500;
@@ -25,18 +35,20 @@ body {
   text-decoration: none;
 }
 .header-contact {
-  color: rgb(117, 117, 117);
+  color: var(--color-font-secondary);
 }
 .header-active-web,
 .header:hover,
 .header:focus,
 .footer-contact:hover,
 .footer-contact:focus {
-  color: rgb(33, 150, 243);
+  color: var(--color-special-primary);
 }
-.button-pointer:hover,
-.button-pointer:focus {
-  color: rgb(255, 0, 0);
+.button-filters:hover,
+.button-filters:focus,
+.mainpage-button:hover,
+.mainpage-button:focus {
+  color: var(--color-special-secondary);
 }
 .mainpage-h1 {
   font-weight: 900;
@@ -45,19 +57,17 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  color: rgb(225, 225, 225);
-  background-color: rgb(47, 48, 58);
-}
-.button-pointer {
-  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-background-primary);
 }
 .mainpage-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: rgb(255, 255, 255);
-  background-color: rgb(33, 150, 243);
+  color: var(--color-white);
+  background-color: var(--color-special-primary);
+  cursor: pointer;
 }
 .mainpage-our-strengths-title {
   font-weight: 700;
@@ -71,7 +81,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgb(117, 117, 117);
+  color: var(--color-font-secondary);
 }
 .mainpage-titles {
   font-weight: 700;
@@ -84,38 +94,42 @@ body {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: rgb(117, 117, 117);
+  color: var(--color-font-secondary);
 }
 .images-text-bold {
   font-weight: 500;
-  color: rgb(33, 33, 33);
+  color: var(--color-font-primary);
 }
 .footer-contact {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: var(--color-white);
+}
+.footer-contact-alpha {
+  color: var(--color-white-alpha);
 }
 .footer-bg-color {
-  background-color: rgb(47, 48, 58);
+  background-color: var(--color-background-primary);
 }
 .button-filters {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  background-color: rgb(245, 244, 250);
+  background-color: var(--color-buttons);
+  cursor: pointer;
 }
 .button-filters-active {
-  color: rgb(255, 255, 255);
-  background-color: rgb(33, 150, 243);
+  color: var(--color-white);
+  background-color: var(--color-special-primary);
 }
 .portfolio-image-text {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: rgb(117, 117, 117);
+  color: var(--color-font-secondary);
 }
 .portfolio-image-text-bold {
   font-weight: 700;
