@@ -107,3 +107,15 @@ body {
   color: rgb(255, 255, 255);
   background-color: rgb(33, 150, 243);
 }
+.portfolio-image-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: rgb(117, 117, 117);
+}
+.portfolio-image-text-bold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
