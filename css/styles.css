@@ -96,3 +96,14 @@ body {
 .footer-bg-color {
   background-color: rgb(47, 48, 58);
 }
+.button-filters {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  background-color: rgb(245, 244, 250);
+}
+.button-filters-active {
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
+}
