@@ -7,8 +7,11 @@
   --color-font-secondary: rgb(117, 117, 117);
   --color-background-primary: rgb(47, 48, 58);
   --color-buttons: rgb(245, 244, 250);
+  --color-black: rgb(0, 0, 0);
+  --text-shadow-primary: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-body {
+body,
+body a {
   font-family: "roboto", sans-serif;
   color: var(--color-font-primary);
 }
@@ -19,7 +22,7 @@ body {
   line-height: 1.19;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: var(--color-black);
 }
 .logo-color-special {
   color: var(--color-special-primary);
@@ -37,7 +40,7 @@ body {
 .header-contact {
   color: var(--color-font-secondary);
 }
-.header-active-web,
+.active-web,
 .header:hover,
 .header:focus,
 .footer-contact:hover,
@@ -46,11 +49,11 @@ body {
 }
 .button-filters:hover,
 .button-filters:focus,
-.mainpage-button:hover,
-.mainpage-button:focus {
+.button-primary:hover,
+.button-primary:focus {
   color: var(--color-special-secondary);
 }
-.mainpage-h1 {
+.title-primary {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -60,7 +63,7 @@ body {
   color: var(--color-white);
   background-color: var(--color-background-primary);
 }
-.mainpage-button {
+.button-primary {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -69,14 +72,14 @@ body {
   background-color: var(--color-special-primary);
   cursor: pointer;
 }
-.mainpage-our-strengths-title {
+.list-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.mainpage-our-strengths {
+.list-text {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -120,6 +123,8 @@ body {
   letter-spacing: 0.03em;
   background-color: var(--color-buttons);
   cursor: pointer;
+  border: none;
+  margin: 8px;
 }
 .button-filters-active {
   color: var(--color-white);
