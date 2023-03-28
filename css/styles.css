@@ -124,7 +124,7 @@ body a {
   background-color: var(--color-buttons);
   cursor: pointer;
   border: none;
-  margin: 8px;
+  padding: 6px 22px;
 }
 .button-filters-active {
   color: var(--color-white);
